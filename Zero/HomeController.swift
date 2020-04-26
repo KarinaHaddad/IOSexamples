@@ -6,4 +6,22 @@
 //  Copyright © 2020 Karina Hadad de Souza. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class HomeController: UIViewController {
+
+    let tripController = TripController()
+    let homeController = HomeController()
+    let aboutMeController = AboutMeController()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [tripController, homeController, aboutMeController]
+    }
+    
+    
+    
+    
+}
