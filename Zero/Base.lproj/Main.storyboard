@@ -96,11 +96,6 @@
                         <viewLayoutGuide key="safeArea" id="wLN-OU-4b2"/>
                     </view>
                     <navigationItem key="navigationItem" id="BAu-k5-N73"/>
-                    <connections>
-                        <outlet property="goTrips" destination="53E-hr-RLj" id="iF4-Db-Eyl"/>
-                        <segue destination="SjA-ZJ-Mnf" kind="show" id="dg0-aK-THo"/>
-                        <segue destination="C30-Lb-LMa" kind="show" id="vvb-Z6-LVH"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RN8-JL-MfE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,7 +106,7 @@
             <objects>
                 <viewController storyboardIdentifier="AboutMeControllerID" id="C30-Lb-LMa" customClass="AboutMeController" customModule="Zero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LxR-CY-JFb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="yvI-27-VGA"/>
@@ -120,18 +115,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9v-jV-w3e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1229" y="-1778"/>
+            <point key="canvasLocation" x="1178" y="-935"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="f3g-Vp-7pJ">
             <objects>
                 <viewController storyboardIdentifier="TripControllerID" id="SjA-ZJ-Mnf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lPV-z1-gxC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjT-wo-Azr">
-                                <rect key="frame" x="50" y="55" width="132" height="85"/>
+                                <rect key="frame" x="50" y="99" width="132" height="95"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -150,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ge-4A-ASg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1287" y="-1031"/>
+            <point key="canvasLocation" x="1229" y="-136"/>
         </scene>
     </scenes>
     <resources>
