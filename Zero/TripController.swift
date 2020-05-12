@@ -1,5 +1,5 @@
 //
-//  HomeController.swift
+//  TripController.swift
 //  Zero
 //
 //  Created by Karina Hadad de Souza on 20/04/20.
@@ -8,12 +8,10 @@
 
 import UIKit
 
-class HomeController: UIViewController {
-    
-    
+class TripController: UIViewController {
+
     override func loadView() {
         super.loadView()
         // Do any additional setup after loading the view.
     }
-    
 }
