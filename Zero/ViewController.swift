@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func goHome(_ sender: UIButton) {
-        let viewHome = self.storyboard?.instantiateViewController(withIdentifier: "HomeControllerID") as! HomeController
+        let viewHome = self.storyboard?.instantiateViewController(withIdentifier: "UITabBarControllerID") as! UITabBarController
         self.present(viewHome, animated: true, completion: nil)
     }
 }
